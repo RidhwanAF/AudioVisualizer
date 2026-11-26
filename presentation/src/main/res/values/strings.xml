@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">Audio Visualizer</string>
+    <string name="tab_fft">FFT</string>
+    <string name="tab_waveform">Waveform</string>
+    <string name="tab_metrics">Metrics</string>
+
+    <string name="label_live">LIVE</string>
+    <string name="label_idle">IDLE</string>
+    <string name="label_listening_audio">Listening to Global Audio</string>
+    <string name="label_grant_notification_hint">Enable Notification Access for album art &amp; ambient colors</string>
+    <string name="label_play_music_hint">Play music from any app to visualize</string>
+    <string name="label_bpm_format">%d BPM</string>
+    <string name="label_bpm_detecting">-- BPM</string>
+
+    <string name="label_effect_off">Off</string>
+    <string name="label_effect_ripple">Ripple</string>
+    <string name="label_effect_water_drop">Water Drop</string>
+    <string name="label_effect_reverse_dust">Reverse Dust</string>
+    <string name="label_effect_border_glow">Border Glow</string>
+
+    <string name="title_permission_audio">Audio Permission Required</string>
+    <string name="msg_permission_audio_desc">Allow microphone/audio capture permission so the visualizer can read real-time FFT frequencies and waveforms from playing music.</string>
+    <string name="action_grant_audio">Grant Audio Permission</string>
+    <string name="action_grant_media_access">Enable Album Art</string>
+
+    <string name="title_fft_spectrum">FFT Frequency Spectrum</string>
+    <string name="subtitle_fft_spectrum">48-band logarithmic analyzer • 25 Hz – 14 kHz</string>
+    <string name="title_waveform_scope">Time-Domain Waveform</string>
+    <string name="subtitle_waveform_scope">Real-time PCM oscilloscope • Peak &amp; RMS envelope</string>
+
+    <string name="section_animation_engine">Animation Engine Parameters</string>
+    <string name="section_frequency_bands">Frequency Bands (7-Band FFT)</string>
+    <string name="section_rhythm_dynamics">Rhythm, Beat &amp; Spectral Dynamics</string>
+    <string name="section_waveform_hardware">Waveform &amp; Hardware Loudness</string>
+
+    <string name="metric_motion_mood">Motion Mood</string>
+    <string name="metric_speed_multiplier">Animation Speed</string>
+    <string name="metric_scale_pulse">Album Scale Punch (In/Out)</string>
+    <string name="metric_ripple_drive">Ambient Ripple Drive</string>
+    <string name="metric_snake_speed">Speaker Snake Speed</string>
+    <string name="metric_snake_glow">Speaker Snake Glow &amp; Tail</string>
+
+    <string name="metric_sub_bass">Sub-Bass (20–60 Hz)</string>
+    <string name="metric_bass">Bass (60–220 Hz)</string>
+    <string name="metric_low_mid">Low-Mid (220–500 Hz)</string>
+    <string name="metric_mid">Mid (500–2k Hz)</string>
+    <string name="metric_high_mid">High-Mid (2–4 kHz)</string>
+    <string name="metric_treble">Treble (4–8 kHz)</string>
+    <string name="metric_brilliance">Brilliance (8–16 kHz)</string>
+
+    <string name="metric_beat_pulse">Beat Pulse</string>
+    <string name="metric_energy">Overall Energy</string>
+    <string name="metric_spectral_flux">Spectral Flux</string>
+    <string name="metric_tempo_bpm">Tempo / Rhythm (BPM)</string>
+    <string name="metric_rhythm_density">Rhythm Onset Density</string>
+    <string name="metric_spectral_centroid">Spectral Centroid (Brightness)</string>
+
+    <string name="metric_waveform_rms">Waveform RMS</string>
+    <string name="metric_waveform_peak">Waveform Peak</string>
+    <string name="metric_zero_crossing">Zero-Crossing Rate</string>
+    <string name="metric_loudness_gain">Calibrated Loudness Gain</string>
+    <string name="metric_crest_factor">Peak/RMS Crest Factor</string>
+    <string name="metric_source_db">Estimated Source Level</string>
+    <string name="metric_raw_rms_peak">Hardware RMS / Peak</string>
+    <string name="metric_volume_comp">Volume Curve Compensation</string>
+    <string name="metric_sample_rate">DSP Sample Rate / Buffer</string>
+
+    <string name="desc_album_art">Current album artwork</string>
+</resources>
